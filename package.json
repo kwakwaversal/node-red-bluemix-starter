@@ -15,6 +15,7 @@
         "node-red-node-watson":"0.x",
         "node-red-node-openwhisk":"0.x",
         "node-red-node-cf-cloudant":"0.x",
+        "node-red-contrib-pushover":"0.x",
         "node-red-contrib-scx-ibmiotapp":"0.x",
         "node-red-nodes-cf-sqldb-dashdb":"0.x"
     },
