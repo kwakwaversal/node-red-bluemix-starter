@@ -49,7 +49,7 @@ allocated to the application or other deploy-time options, have a look in `manif
 
 This repository has divered from the original by adding plugins to `package.json`.
 
-#### node-red-contrib-cloudantplus
+#### [node-red-contrib-cloudantplus]
 
 Replaced [node-red-node-cf-cloudant] with [node-red-contrib-cloudantplus] after suffering
 (due to my own incompetence) to get a `cloudant` search index to work. I eventually moved
@@ -62,14 +62,16 @@ which implements the ability to search `cloudant` views by the author of
 [node-red-contrib-cloudantplus]. [hammoaj]. Incidentally, [hammoaj] works at IBM so gives
 me more confidence in using the node.
 
-#### node-red-contrib-tgr-jsonata
+#### [node-red-contrib-tgr-jsonata]
 
 Helpful to perform custom JSON transformations on data. 
 
-#### node-red-contrib-pushover
+#### [node-red-contrib-pushover]
 
 Easiest way to get messages to your phone.
 
+[hammoaj]: https://github.com/hammoaj
 [node-red-node-cf-cloudant]: https://github.com/lgfa29/node-red-node-cf-cloudant
 [node-red-contrib-cloudantplus]: https://github.com/hammoaj/node-red-contrib-cloudantplus
-[hammoaj]: https://github.com/hammoaj
+[node-red-contrib-pushover]: https://github.com/RayPS/node-red-contrib-pushover
+[node-red-contrib-tgr-jsonata]: https://github.com/robtigger/node-red-contrib-tgr-jsonata
