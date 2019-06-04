@@ -44,3 +44,32 @@ the `Deploy to IBM Cloud` button at your repository.
 
 If you want to change the name of the Cloudant instance that gets created, the memory
 allocated to the application or other deploy-time options, have a look in `manifest.yml`.
+
+### Diverging from original repository
+
+This repository has divered from the original by adding plugins to `package.json`.
+
+#### node-red-contrib-cloudantplus
+
+Replaced [node-red-node-cf-cloudant] with [node-red-contrib-cloudantplus] after suffering
+(due to my own incompetence) to get a `cloudant` search index to work. I eventually moved
+to `cloudantplus` which provides an additional `view` search (couldn't get it to work) and
+`query` (could get it to work, yay!). The `query` search option stopped me going mad.
+
+[node-red-node-cf-cloudant] appears to have stalled and even has this stale 
+[pull request](https://github.com/lgfa29/node-red-node-cf-cloudant/pull/12)
+which implements the ability to search `cloudant` views by the author of 
+[node-red-contrib-cloudantplus]. [hammoaj]. Incidentally, [hammoaj] works at IBM so gives
+me more confidence in using the node.
+
+#### node-red-contrib-tgr-jsonata
+
+Helpful to perform custom JSON transformations on data. 
+
+#### node-red-contrib-pushover
+
+Easiest way to get messages to your phone.
+
+[node-red-node-cf-cloudant]: https://github.com/lgfa29/node-red-node-cf-cloudant
+[node-red-contrib-cloudantplus]: https://github.com/hammoaj/node-red-contrib-cloudantplus
+[hammoaj]: https://github.com/hammoaj
