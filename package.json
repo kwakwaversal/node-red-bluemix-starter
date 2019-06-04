@@ -16,6 +16,7 @@
         "node-red-node-openwhisk":"0.x",
         "node-red-contrib-cloudantplus":"0.x",
         "node-red-contrib-pushover":"0.x",
+        "node-red-contrib-tgr-jsonata":"0.x",
         "node-red-contrib-scx-ibmiotapp":"0.x",
         "node-red-nodes-cf-sqldb-dashdb":"0.x"
     },
